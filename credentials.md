@@ -21,11 +21,11 @@ hero_text: "Professional qualifications and accomplishments"
 
 ## Scientific Communication and Public Engagement
 
-Beyond 50+ conference presentations, accomplishments include:
+More than 50 conference presentations. Other experience include:
 
 - Co-chaired major international scientific forums and organized workshops on global climate datasets
 - Received "Best Poster" recognition at two national conferences
-- Guest lectured at college level, connecting research with academic curricula
+- Guest lectured at a local university, connecting research with academic curricula
 - Developed STEM education presentations on weather and scholarship merit badges for scouts
 - Taught Honors and College Prep Environmental Science at the secondary level
 - Presented weather and climate topics to elementary school audiences

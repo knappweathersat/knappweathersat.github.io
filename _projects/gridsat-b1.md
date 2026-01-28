@@ -1,13 +1,17 @@
 ---
 layout: project
 title: GridSat-B1
-subtitle: Geostationary Satellite Brightness Temperature Data Record
+subtitle: Gridded Satellite (GridSat) B1 data
 permalink: /gridsat-b1/
 featured_image: /assets/images/GulfCoast.jpg
 image_caption: GridSat-B1 global coverage
 related_links:
-  - title: NOAA NCEI GridSat Page
-    url: https://www.ncei.noaa.gov/products/gridsat
+  - title: NOAA GridSat-B1 CDR Page
+    url: https://www.ncei.noaa.gov/products/gridded-geostationary-brightness-temperature
+  - title: ISCCP B1 Data page
+    url: https://www.ncei.noaa.gov/products/satellite/international-satellite-cloud-climatology-b1
+  - title: Browse GridSat Imagery
+    url: https://www.ncei.noaa.gov/gibbs/  
   - title: Related Publications
     url: /publications/
 ---
@@ -18,18 +22,34 @@ GridSat-B1 is one of NOAA's first operational Climate Data Records (CDRs), provi
 
 As a pioneering climate data record, GridSat merges observations from multiple geostationary satellites spanning several decades, creating a seamless, calibrated dataset that enables researchers and decision-makers to analyze climate patterns and changes over time. The product continues to evolve with modernization efforts to incorporate next-generation satellite capabilities while maintaining scientific continuity with the historical record.
 
+## Data access
+
+### HTTPS bulk access
+[Data for 1980-present are available by HTTPS download](https://www.ncei.noaa.gov/data/geostationary-ir-channel-brightness-temperature-gridsat-b1/access/)
+
+### NOAA Open Data Dissemination (NODD) - AWS
+
+The full period of record is available on the cloud:
+* Description: Gridsat B1
+* Resource type: S3 Bucket
+* Amazon Resource Name (ARN):arn:aws:s3:::noaa-cdr-gridsat-b1-pds
+* AWS Region: us-east-1
+* AWS CLI Access (No AWS account required): aws s3 ls --no-sign-request s3://noaa-cdr-gridsat-b1-pds/
+* Explore: [Browse Bucket](https://noaa-cdr-gridsat-b1-pds.s3.amazonaws.com/index.html)
+
 ## Data Description
 
 GridSat-B1 integrates infrared brightness temperature observations from the global constellation of geostationary weather satellites, including:
 
-- **GOES Series**: Multiple generations of Geostationary Operational Environmental Satellites, including recent transitions to GOES-R series platforms (GOES-16 through GOES-19)
-- **International Partners**: Data from EUMETSAT and other international geostationary satellite operators
+- **Temporal extent**: Multiple generations of various geostationary platforms: Meteosats 2 - 11, 
+GOES 4 - 19, and Himawari 1-8. This data spans decades of data but provide a temporally consistent record.
+- **International Partners**: Data from JMA, EUMETSAT and other international geostationary satellite operators
 - **Global Coverage**: Near-continuous observations from the full geostationary satellite constellation
 
 The dataset employs sophisticated calibration methodologies to ensure consistency across different satellite platforms and generations:
 
-- **Inter-satellite Calibration**: Advanced procedures using reference datasets including VIIRS Global Area Coverage (VGAC) data
-- **Matchup Algorithms**: VGAC-ISCCP B1 techniques for next-generation calibration approaches
+- **Inter-satellite Calibration**: Advanced procedures using reference datasets including HIRS and VIIRS Global Area Coverage (VGAC) data
+- **Matchup Algorithms**: Matching ISCCP B1 with HIRS and VIIRS for next-generation calibration 
 - **Quality Assurance**: Comprehensive validation frameworks maintaining data integrity and climate record consistency
 - **Long-term Continuity**: Careful assessment procedures to ensure seamless extension of the climate record across satellite transitions
 

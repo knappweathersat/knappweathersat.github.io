@@ -7,7 +7,7 @@ featured_image: /assets/images/GulfCoast.jpg
 image_caption: VGAC global coverage
 related_links:
   - title: NOAA NCEI VGAC Page
-    url: https://www.ncei.noaa.gov/products/vgac
+    url: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01703/html
   - title: Related Publications
     url: /publications/
 ---
@@ -18,8 +18,21 @@ VIIRS Global Area Coverage (VGAC) is a comprehensive satellite climate data reco
 
 As a modern satellite data record, VGAC builds on decades of polar-orbiting satellite observations to create a consistent, well-calibrated dataset suitable for climate studies. The product leverages cloud-based processing architectures to ensure efficient, scalable data production and distribution.
 
-## Data Description
+## Data Access
+### NCEI Archive
+Operational and archived data at NCEI are available with a 3-5 week latency. Some of the data are available by 
+[HTTPS download](https://www.ncei.noaa.gov/data/viirs-global-area-coverage/access/)
 
+For the entire archive period of record, users would need to contact NCEI directly: ncei.orders@noaa.gov
+
+### Operational updates
+The archived data were routinely produced and made  by NOAA STAR in coordination with the University of Maryland until January 2026. Their latency issporadic (performing updates every 2-4 weeks). Their anonymous FTP server provides access to historic data:  
+ftp://snpp.umd.edu/VGAC/
+
+Since January 2026, the operational and archived data are produced by and available from NCICS (in cooperation with NCEI). The data are available generally with a 3 hour latency at their anonymous FTP server:  
+ftp://filsrv.cicsnc.org/vgac/data/
+
+## Data Description
 VGAC integrates observations from multiple VIIRS instruments on operational polar-orbiting satellites, including:
 
 - **Suomi NPP** (NOAA-20): Provides continuous global coverage with advanced radiometric capabilities

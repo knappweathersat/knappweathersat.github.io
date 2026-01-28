@@ -12,7 +12,7 @@ features:
     description: Expert in GOES, VIIRS, AVHRR platforms with international partnerships across EUMETSAT, NASA, and global meteorological agencies.
   - title: Climate Data Record Innovation
     image: /assets/images/hurricane-irma.png
-    description: Developed GridSat CDR and other foundational datasets supporting USAID humanitarian response and IPCC climate science.
+    description: Developed GridSat-B1 CDR and other foundational datasets supporting USAID humanitarian response and IPCC climate science.
   - title: Advanced Satellite Climate Solutions
     image: /assets/images/satellite-timeline.png
     description: Deep technical expertise in geostationary satellite systems, climate algorithm development, and operational product implementation for diverse client needs.

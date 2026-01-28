@@ -48,10 +48,13 @@ a {
    Navigation
    ================================ */
 .site-header {
-  background-color: var(--color-dark);
-  position: sticky;
+  background-color: rgba(26, 26, 26, 0.85);
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
+  backdrop-filter: blur(3px);
 }
 
 .navbar {
@@ -162,7 +165,7 @@ a {
   background-position: center;
   background-color: var(--color-dark);
   color: var(--color-text-light);
-  padding: 4rem var(--spacing);
+  padding: 6rem var(--spacing) 4rem;
   text-align: center;
   position: relative;
 }
@@ -174,7 +177,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero-content {
@@ -209,7 +212,7 @@ a {
 
 /* Page Hero Layout */
 .page-hero {
-  min-height: 400px;
+  min-height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -218,6 +221,7 @@ a {
   background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
+  padding-top: 60px;
 }
 
 .page-hero .hero-overlay {
@@ -256,6 +260,25 @@ a {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0;
+}
+
+/* Links in content areas */
+.content-wrapper a,
+.page-content a {
+  color: #0066cc;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.content-wrapper a:hover,
+.page-content a:hover {
+  color: #0052a3;
+  text-decoration: underline;
+}
+
+.content-wrapper a:visited,
+.page-content a:visited {
+  color: #551a8b;
 }
 
 .content-wrapper h1 {
@@ -309,14 +332,17 @@ a {
 }
 
 .related-links a {
-  color: var(--color-text);
-  text-decoration: none;
-  transition: opacity 0.2s;
+  color: #0066cc;
+  text-decoration: underline;
+  transition: color 0.2s;
 }
 
 .related-links a:hover {
-  opacity: 0.7;
-  text-decoration: underline;
+  color: #0052a3;
+}
+
+.related-links a:visited {
+  color: #551a8b;
 }
 
 /* ================================
@@ -369,7 +395,7 @@ a {
 .page-content {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 3rem var(--spacing);
+  padding: 1.5rem var(--spacing) 3rem;
 }
 
 .page-content h1 {
@@ -469,6 +495,16 @@ a {
 .footer-content p {
   margin: 0.25rem 0;
   font-size: 0.9rem;
+}
+
+.footer-content a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.footer-content a:hover {
+  opacity: 0.8;
 }
 
 /* ================================

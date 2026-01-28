@@ -8,11 +8,17 @@ hero_text: "Expert consulting and product development in satellite meteorology a
 ---
 
 ## Service Philosophy
-
 I believe complex atmospheric science should serve practical decision-making. My career has focused on converting advanced satellite research into practical data products for organizational use.
 
-## Service Offerings
+## Core Operating Principles
+My business operates according to four key values:
 
+- **Scientific rigor meets operational practicality** - Delivering solutions that are both scientifically sound and practically implementable
+- **Collaborative approach** - Building on existing expertise rather than replacing it
+- **International perspective** - Bringing global best practices to local challenges
+- **Rapid response capability** - Providing quick solutions without sacrificing quality
+
+## Service Offerings
 I provide several specialized services:
 
 - Expert consulting regarding geostationary satellite data (such as GOES systems)
