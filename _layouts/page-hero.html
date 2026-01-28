@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="hero page-hero" style="background-image: url('{{ page.hero_image | default: '/assets/images/default-hero.jpg' | relative_url }}');">
+  <div class="hero-content">
+    <h1>{{ site.title }}</h1>
+    <p class="tagline">{{ site.tagline }}</p>
+
+    <h2 class="mission-title">{{ page.hero_title | default: page.title }}</h2>
+    {% if page.hero_text %}
+    <p class="mission-statement">{{ page.hero_text }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="content-wrapper">
+    {{ content }}
+  </div>
+</section>

@@ -1,17 +1,14 @@
 ---
-layout: default
+layout: page-hero
 title: Contact
 permalink: /contact/
+hero_image: /assets/images/Argentina.jpg
+hero_title: "Contact"
+hero_text: "Get in touch for consulting services or collaborations"
 ---
 
-<div class="page-content">
+I invite potential clients to initiate discussions about satellite climate expertise applications.
 
-# Contact
-
-For inquiries about consulting services or collaborations, please reach out:
-
-**Email:** your-email@example.com
+**Email:** ken@knappweathersat.com
 
 **Location:** Asheville, North Carolina
-
-</div>

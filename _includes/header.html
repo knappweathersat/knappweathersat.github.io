@@ -11,6 +11,14 @@
       <li><a href="{{ '/services' | relative_url }}" {% if page.url == '/services/' %}class="active"{% endif %}>Services</a></li>
       <li><a href="{{ '/credentials' | relative_url }}" {% if page.url == '/credentials/' %}class="active"{% endif %}>Credentials</a></li>
       <li><a href="{{ '/publications' | relative_url }}" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle">Projects</a>
+        <ul class="dropdown-menu">
+          {% for project in site.projects %}
+          <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
       <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about/' %}class="active"{% endif %}>About me</a></li>
       <li><a href="{{ '/contact' | relative_url }}" {% if page.url == '/contact/' %}class="active"{% endif %}>Contact</a></li>
     </ul>

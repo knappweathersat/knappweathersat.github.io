@@ -1,31 +1,23 @@
 ---
-layout: default
+layout: page-hero
 title: Services
 permalink: /services/
+hero_image: /assets/images/GulfCoast.jpg
+hero_title: "Services"
+hero_text: "Expert consulting and product development in satellite meteorology and climate science"
 ---
 
-<div class="page-content">
+## Service Philosophy
 
-# Services
+I believe complex atmospheric science should serve practical decision-making. My career has focused on converting advanced satellite research into practical data products for organizational use.
 
-## Satellite Data Processing & Analysis
+## Service Offerings
 
-Custom processing pipelines for geostationary and polar-orbiting satellite data, including GOES, Meteosat, Himawari, VIIRS, and AVHRR platforms.
+I provide several specialized services:
 
-## Climate Data Record Development
-
-Development and validation of long-term climate data records suitable for research and operational applications.
-
-## Algorithm Development
-
-Custom algorithm development for satellite-based retrievals, including cloud properties, sea surface temperature, and radiation budget.
-
-## Technical Consulting
-
-Expert guidance on satellite data applications, system architecture, and scientific program management.
-
-## Training & Knowledge Transfer
-
-Workshops and training sessions on satellite meteorology, data processing techniques, and climate applications.
-
-</div>
+- Expert consulting regarding geostationary satellite data (such as GOES systems)
+- Development and validation of satellite-derived weather and climate datasets
+- Advisory services addressing data continuity and sustainability planning
+- Analysis and maintenance of tropical cyclone best track datasets
+- Custom research projects and data interpretation
+- Scientific reporting and publication support
