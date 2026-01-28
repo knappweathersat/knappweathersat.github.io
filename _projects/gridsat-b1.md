@@ -37,6 +37,9 @@ The full period of record is available on the cloud:
 * AWS CLI Access (No AWS account required): aws s3 ls --no-sign-request s3://noaa-cdr-gridsat-b1-pds/
 * Explore: [Browse Bucket](https://noaa-cdr-gridsat-b1-pds.s3.amazonaws.com/index.html)
 
+## Presentations and papers
+* [GridSat-B1 Poster at the 2026 AMS Annual Meeting](/assets\files\AMS Houston GridSat B1 Poster.pdf)
+
 ## Data Description
 
 GridSat-B1 integrates infrared brightness temperature observations from the global constellation of geostationary weather satellites, including:

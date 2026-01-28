@@ -32,6 +32,9 @@ ftp://snpp.umd.edu/VGAC/
 Since January 2026, the operational and archived data are produced by and available from NCICS (in cooperation with NCEI). The data are available generally with a 3 hour latency at their anonymous FTP server:  
 ftp://filsrv.cicsnc.org/vgac/data/
 
+## Presentations and papers
+* [VGAC presentation at 2026 AMS Annual Meeting](/assets/files/AMS VGAC presentation 12.1.pdf)
+
 ## Data Description
 VGAC integrates observations from multiple VIIRS instruments on operational polar-orbiting satellites, including:
 
