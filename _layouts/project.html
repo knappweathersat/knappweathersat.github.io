@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<article class="project">
+  <header class="project-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+  
+  {% if page.featured_image %}
+  <figure class="featured-image">
+    <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+    {% if page.image_caption %}
+    <figcaption>{{ page.image_caption }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
+  
+  <div class="project-content">
+    {{ content }}
+  </div>
+  
+  {% if page.related_links %}
+  <aside class="related-links">
+    <h3>Related Resources</h3>
+    <ul>
+      {% for link in page.related_links %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+</article>

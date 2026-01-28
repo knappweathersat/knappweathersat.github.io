@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="hero" style="background-image: url('{{ '/assets/images/NewEngland.jpg' | relative_url }}');">
+  <div class="hero-content">
+    <h1>{{ site.title }}</h1>
+    <p class="tagline">{{ page.tagline }}</p>
+    
+    <h2 class="mission-title">Mission</h2>
+    <p class="mission-statement">{{ page.mission }}</p>
+  </div>
+</section>
+
+<section class="features">
+  <div class="features-grid">
+    {% for feature in page.features %}
+    <div class="feature-card">
+      {% if feature.image %}
+      <img src="{{ feature.image | relative_url }}" alt="{{ feature.title }}">
+      {% endif %}
+      <div class="feature-text">
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{{ content }}
