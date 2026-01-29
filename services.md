@@ -2,7 +2,7 @@
 layout: page-hero
 title: Services
 permalink: /services/
-hero_image: /assets/images/GulfCoast.jpg
+hero_image: /assets/images/Baja.png
 hero_title: "Services"
 hero_text: "Expert consulting and product development in satellite meteorology and climate science"
 ---

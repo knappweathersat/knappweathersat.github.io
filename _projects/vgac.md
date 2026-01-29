@@ -3,7 +3,7 @@ layout: project
 title: VGAC
 subtitle: VIIRS Global Area Coverage
 permalink: /vgac/
-featured_image: /assets/images/GulfCoast.jpg
+featured_image: /assets/images/Texas.png
 image_caption: VGAC global coverage
 related_links:
   - title: NOAA NCEI VGAC Page
