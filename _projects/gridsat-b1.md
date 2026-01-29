@@ -7,10 +7,12 @@ featured_image: /assets/images/GulfCoast.jpg
 image_caption: GridSat-B1 global coverage
 related_links:
   - title: NOAA GridSat-B1 CDR Page
+    url: https://www.ncei.noaa.gov/products/climate-data-records/geostationary-IR-channel-brightness-temperature
+  - title: NCEI Gridsat project page (with some information on using the data)
     url: https://www.ncei.noaa.gov/products/gridded-geostationary-brightness-temperature
-  - title: ISCCP B1 Data page
+  - title: ISCCP B1 Data page (the source data for GridSat)
     url: https://www.ncei.noaa.gov/products/satellite/international-satellite-cloud-climatology-b1
-  - title: Browse GridSat Imagery
+  - title: Browse GridSat Imagery (the entire record!!)
     url: https://www.ncei.noaa.gov/gibbs/  
   - title: Related Publications
     url: /publications/

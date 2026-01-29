@@ -25,12 +25,12 @@ Operational and archived data at NCEI are available with a 3-5 week latency. Som
 
 For the entire archive period of record, users would need to contact NCEI directly: ncei.orders@noaa.gov
 
-### Operational updates
-The archived data were routinely produced and made  by NOAA STAR in coordination with the University of Maryland until January 2026. Their latency issporadic (performing updates every 2-4 weeks). Their anonymous FTP server provides access to historic data:  
-ftp://snpp.umd.edu/VGAC/
-
+### Routinely updated data
 Since January 2026, the operational and archived data are produced by and available from NCICS (in cooperation with NCEI). The data are available generally with a 3 hour latency at their anonymous FTP server:  
-ftp://filsrv.cicsnc.org/vgac/data/
+**ftp://filsrv.cicsnc.org/vgac/data/**
+
+The archived data were routinely produced and made  by NOAA STAR in coordination with the University of Maryland until January 2026. Their latency issporadic (performing updates every 2-4 weeks). Their anonymous FTP server provides access to historic data:  
+**ftp://snpp.umd.edu/VGAC/**
 
 ## Presentations and papers
 * [VGAC presentation at 2026 AMS Annual Meeting](/assets/files/AMS VGAC presentation 12.1.pdf)
