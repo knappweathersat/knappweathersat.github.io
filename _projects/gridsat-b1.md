@@ -33,10 +33,10 @@ As a pioneering climate data record, GridSat merges observations from multiple g
 
 The full period of record is available on the cloud:
 * Description: Gridsat B1
-* Resource type: S3 Bucket
-* Amazon Resource Name (ARN):arn:aws:s3:::noaa-cdr-gridsat-b1-pds
+* Resource type: `S3 Bucket`
+* Amazon Resource Name (ARN): `arn:aws:s3:::noaa-cdr-gridsat-b1-pds`
 * AWS Region: us-east-1
-* AWS CLI Access (No AWS account required): aws s3 ls --no-sign-request s3://noaa-cdr-gridsat-b1-pds/
+* AWS CLI Access (No AWS account required): `aws s3 ls --no-sign-request s3://noaa-cdr-gridsat-b1-pds/`
 * Explore: [Browse Bucket](https://noaa-cdr-gridsat-b1-pds.s3.amazonaws.com/index.html)
 
 ## Presentations and papers

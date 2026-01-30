@@ -14,9 +14,9 @@ related_links:
 
 ## Overview
 
-VIIRS Global Area Coverage (VGAC) is a comprehensive satellite climate data record that provides calibrated, quality-controlled observations from the Visible Infrared Imaging Radiometer Suite (VIIRS) instrument aboard multiple polar-orbiting satellites. VGAC serves as a critical component of NOAA's satellite climate data portfolio, designed to support long-term climate monitoring and research applications.
+VIIRS Global Area Coverage (VGAC) is a comprehensive satellite record that provides reprojected data from the Visible Infrared Imaging Radiometer Suite (VIIRS) instrument aboard multiple polar-orbiting satellites. VGAC serves as a critical component of NOAA's satellite climate data portfolio, designed to extend the life of historic CDRs therby supporting long-term climate monitoring and research applications.
 
-As a modern satellite data record, VGAC builds on decades of polar-orbiting satellite observations to create a consistent, well-calibrated dataset suitable for climate studies. The product leverages cloud-based processing architectures to ensure efficient, scalable data production and distribution.
+The product leverages cloud-based processing architectures to ensure efficient, scalable data production and distribution.
 
 ## Data Access
 ### NCEI Archive
@@ -26,31 +26,22 @@ Operational and archived data at NCEI are available with a 3-5 week latency. Som
 For the entire archive period of record, users would need to contact NCEI directly: ncei.orders@noaa.gov
 
 ### Routinely updated data
-Since January 2026, the operational and archived data are produced by and available from NCICS (in cooperation with NCEI). The data are available generally with a 3 hour latency at their anonymous FTP server:  
+The operational and archived data are produced by and available from NCICS (in cooperation with NCEI). The data are available generally with a 3 hour latency at their anonymous FTP server:  
 **ftp://filsrv.cicsnc.org/vgac/data/**
 
-The archived data were routinely produced and made  by NOAA STAR in coordination with the University of Maryland until January 2026. Their latency issporadic (performing updates every 2-4 weeks). Their anonymous FTP server provides access to historic data:  
-**ftp://snpp.umd.edu/VGAC/**
+Data will also likely be available on NODD (NOAA Open Data Dissemination)
 
 ## Presentations and papers
 * [VGAC presentation at 2026 AMS Annual Meeting](/assets/files/AMS VGAC presentation 12.1.pdf)
 
 ## Data Description
-VGAC integrates observations from multiple VIIRS instruments on operational polar-orbiting satellites, including:
+The data are reprojected to provide a product similar to legacy AVHRR GAC data. This includes:
+- Files organized by orbit (instead of by granule).
+- Channels provided at 3.9 km resolution (which approximates the original GAC resolution)
 
-- **Suomi NPP** (NOAA-20): Provides continuous global coverage with advanced radiometric capabilities
-- **JPSS Series**: JPSS-1, JPSS-2, and future missions ensuring long-term data continuity
-- **Global Coverage**: Near-global observations with polar-orbiting satellite swaths
-
-The dataset undergoes rigorous calibration and quality control procedures to ensure consistency across different satellite platforms and instrument generations. Data processing implements:
-
-- Inter-satellite calibration for seamless multi-platform integration
-- Robust quality assurance procedures for operational data validation
-- Modern cloud-based processing infrastructure for efficient data handling
-- Integration with NOAA data distribution systems for broad accessibility
+Data are routinely produced for NOAA 20 and 21.
 
 ## Applications
-
 VGAC supports a wide range of scientific and operational applications:
 
 - **Climate Record Development**: Long-term, consistent observations for climate trend analysis and monitoring
@@ -67,8 +58,6 @@ VGAC employs modern data processing approaches optimized for climate data record
 
 - **Processing Architecture**: Python-based algorithms deployed in cloud environments (AWS)
 - **Scalability**: Designed for routine operational processing with parallel processing capabilities
-- **Quality Control**: Comprehensive validation frameworks ensuring data integrity
-- **Data Stewardship**: Follows NOAA Climate Data Record standards and best practices
 - **Integration**: Compatible with existing NOAA Open Data Dissemination (NODD) systems
 
 The technical implementation emphasizes practical solutions that bridge research innovation with operational requirements, ensuring sustainable long-term production of this critical climate dataset.
